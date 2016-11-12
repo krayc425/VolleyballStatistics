@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242A2F161DB658A000FF5B39 /* VSGameStatisticsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242A2F151DB658A000FF5B39 /* VSGameStatisticsTableViewController.m */; };
+		242A2F1A1DB658C400FF5B39 /* VSGameStatisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 242A2F181DB658C400FF5B39 /* VSGameStatisticsTableViewCell.m */; };
+		242A2F1B1DB658C400FF5B39 /* VSGameStatisticsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242A2F191DB658C400FF5B39 /* VSGameStatisticsTableViewCell.xib */; };
+		2434AA0A1DBE2306004D50E5 /* VSIconTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2434AA091DBE2306004D50E5 /* VSIconTableViewCell.m */; };
+		246101951DB111F9003204A6 /* GameRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 246101941DB111F9003204A6 /* GameRecord.m */; };
+		24668D971DB25B9500CF2E21 /* MemberOpponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 24668D961DB25B9500CF2E21 /* MemberOpponent.m */; };
+		2478D8801DB123B5006C1581 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2478D87F1DB123B5006C1581 /* GameManager.m */; };
+		2478D88A1DB1264F006C1581 /* VSGameInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2478D8891DB1264F006C1581 /* VSGameInfoTableViewCell.m */; };
+		247E74BC1DBA6397006F9021 /* MemberData.m in Sources */ = {isa = PBXBuildFile; fileRef = 247E74BB1DBA6397006F9021 /* MemberData.m */; };
+		247F5BE81DAFB9340031F955 /* VSGameRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F5BE71DAFB9340031F955 /* VSGameRecordTableViewController.m */; };
+		247F5BEA1DAFCBBB0031F955 /* VSGameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247F5BE91DAFCBBB0031F955 /* VSGameTableViewCell.xib */; };
+		247F5BEE1DB06F9A0031F955 /* MLKMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F5BED1DB06F9A0031F955 /* MLKMenuPopover.m */; };
+		247F5BF21DB0A0B30031F955 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 247F5BF11DB0A0B30031F955 /* Utilities.m */; };
+		24951A5D1DAF12F10054B89B /* VSStatisticsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24951A5C1DAF12F10054B89B /* VSStatisticsTableViewCell.xib */; };
+		24B6DF901DADE1D900EB548E /* Member+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6DF8D1DADE1D900EB548E /* Member+CoreDataClass.m */; };
+		24B6DF911DADE1D900EB548E /* Member+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6DF8F1DADE1D900EB548E /* Member+CoreDataProperties.m */; };
+		24B6DF951DADED5A00EB548E /* MemberManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6DF941DADED5A00EB548E /* MemberManager.m */; };
+		24B971D71DB3271D008515F4 /* Game+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B971D41DB3271D008515F4 /* Game+CoreDataClass.m */; };
+		24B971D81DB3271D008515F4 /* Game+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B971D61DB3271D008515F4 /* Game+CoreDataProperties.m */; };
+		24C61A821DAD032B0039CD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C61A811DAD032B0039CD1F /* main.m */; };
+		24C61A851DAD032B0039CD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C61A841DAD032B0039CD1F /* AppDelegate.m */; };
+		24C61A8B1DAD032B0039CD1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C61A891DAD032B0039CD1F /* Main.storyboard */; };
+		24C61A8E1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24C61A8C1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodeld */; };
+		24C61A931DAD032B0039CD1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C61A911DAD032B0039CD1F /* LaunchScreen.storyboard */; };
+		24D292561DAF779C00418176 /* VSMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D292551DAF779C00418176 /* VSMemberTableViewCell.xib */; };
+		24D6B0E51DB5A43700625B7A /* VSGameRecordTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6B0E41DB5A43700625B7A /* VSGameRecordTabBarViewController.m */; };
+		24D6C3131DB9DB4800C799E8 /* VSGameBrowseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6C3121DB9DB4800C799E8 /* VSGameBrowseTableViewController.m */; };
+		24D6C3191DB9DC8900C799E8 /* VSGameBrowseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6C3181DB9DC8900C799E8 /* VSGameBrowseTabBarViewController.m */; };
+		24DE04051DB473BD00847C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DE04041DB473BD00847C70 /* Assets.xcassets */; };
+		24EBDCA01DAE5C0A00316F9B /* VSGameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EBDC9E1DAE5C0A00316F9B /* VSGameTableViewCell.m */; };
+		24EBDCA41DAE5D7900316F9B /* VSGameAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EBDCA31DAE5D7900316F9B /* VSGameAddTableViewController.m */; };
+		24F0C7CC1DAD35C700A38F18 /* VSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7CB1DAD35C700A38F18 /* VSTabBarViewController.m */; };
+		24F0C7CF1DAD35FE00A38F18 /* VSGameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7CE1DAD35FE00A38F18 /* VSGameTableViewController.m */; };
+		24F0C7D21DAD360700A38F18 /* VSSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7D11DAD360700A38F18 /* VSSettingsTableViewController.m */; };
+		24F0C7D71DAD385300A38F18 /* VSStatisticsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7D61DAD385300A38F18 /* VSStatisticsTableViewController.m */; };
+		24F0C7DE1DAD393D00A38F18 /* VSMemberTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7DD1DAD393D00A38F18 /* VSMemberTableViewController.m */; };
+		24F0C7E21DAD3F5600A38F18 /* VSStatisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7E11DAD3F5600A38F18 /* VSStatisticsTableViewCell.m */; };
+		24F0C7E51DAD3F5F00A38F18 /* VSMemberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7E41DAD3F5F00A38F18 /* VSMemberTableViewCell.m */; };
+		24F0C7EB1DADD7A600A38F18 /* VSMemberAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C7EA1DADD7A600A38F18 /* VSMemberAddTableViewController.m */; };
+		24F29F2C1DBD00B40015EB3F /* VSIconTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F29F2B1DBD00B40015EB3F /* VSIconTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		242A2F141DB658A000FF5B39 /* VSGameStatisticsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameStatisticsTableViewController.h; sourceTree = "<group>"; };
+		242A2F151DB658A000FF5B39 /* VSGameStatisticsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameStatisticsTableViewController.m; sourceTree = "<group>"; };
+		242A2F171DB658C400FF5B39 /* VSGameStatisticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameStatisticsTableViewCell.h; sourceTree = "<group>"; };
+		242A2F181DB658C400FF5B39 /* VSGameStatisticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameStatisticsTableViewCell.m; sourceTree = "<group>"; };
+		242A2F191DB658C400FF5B39 /* VSGameStatisticsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSGameStatisticsTableViewCell.xib; sourceTree = "<group>"; };
+		2434AA081DBE2306004D50E5 /* VSIconTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSIconTableViewCell.h; sourceTree = "<group>"; };
+		2434AA091DBE2306004D50E5 /* VSIconTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSIconTableViewCell.m; sourceTree = "<group>"; };
+		246101931DB111F9003204A6 /* GameRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRecord.h; sourceTree = "<group>"; };
+		246101941DB111F9003204A6 /* GameRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRecord.m; sourceTree = "<group>"; };
+		24668D951DB25B9500CF2E21 /* MemberOpponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberOpponent.h; sourceTree = "<group>"; };
+		24668D961DB25B9500CF2E21 /* MemberOpponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberOpponent.m; sourceTree = "<group>"; };
+		2478D87E1DB123B5006C1581 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		2478D87F1DB123B5006C1581 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		2478D8881DB1264F006C1581 /* VSGameInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameInfoTableViewCell.h; sourceTree = "<group>"; };
+		2478D8891DB1264F006C1581 /* VSGameInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameInfoTableViewCell.m; sourceTree = "<group>"; };
+		247E74BA1DBA6397006F9021 /* MemberData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberData.h; sourceTree = "<group>"; };
+		247E74BB1DBA6397006F9021 /* MemberData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberData.m; sourceTree = "<group>"; };
+		247F5BE61DAFB9340031F955 /* VSGameRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameRecordTableViewController.h; sourceTree = "<group>"; };
+		247F5BE71DAFB9340031F955 /* VSGameRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameRecordTableViewController.m; sourceTree = "<group>"; };
+		247F5BE91DAFCBBB0031F955 /* VSGameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSGameTableViewCell.xib; sourceTree = "<group>"; };
+		247F5BEC1DB06F9A0031F955 /* MLKMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKMenuPopover.h; sourceTree = "<group>"; };
+		247F5BED1DB06F9A0031F955 /* MLKMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKMenuPopover.m; sourceTree = "<group>"; };
+		247F5BF01DB0A0B30031F955 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		247F5BF11DB0A0B30031F955 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		24951A5C1DAF12F10054B89B /* VSStatisticsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSStatisticsTableViewCell.xib; sourceTree = "<group>"; };
+		24B6DF8C1DADE1D900EB548E /* Member+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Member+CoreDataClass.h"; sourceTree = "<group>"; };
+		24B6DF8D1DADE1D900EB548E /* Member+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Member+CoreDataClass.m"; sourceTree = "<group>"; };
+		24B6DF8E1DADE1D900EB548E /* Member+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Member+CoreDataProperties.h"; sourceTree = "<group>"; };
+		24B6DF8F1DADE1D900EB548E /* Member+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Member+CoreDataProperties.m"; sourceTree = "<group>"; };
+		24B6DF931DADED5A00EB548E /* MemberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberManager.h; sourceTree = "<group>"; };
+		24B6DF941DADED5A00EB548E /* MemberManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberManager.m; sourceTree = "<group>"; };
+		24B971D31DB3271D008515F4 /* Game+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Game+CoreDataClass.h"; sourceTree = "<group>"; };
+		24B971D41DB3271D008515F4 /* Game+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Game+CoreDataClass.m"; sourceTree = "<group>"; };
+		24B971D51DB3271D008515F4 /* Game+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Game+CoreDataProperties.h"; sourceTree = "<group>"; };
+		24B971D61DB3271D008515F4 /* Game+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Game+CoreDataProperties.m"; sourceTree = "<group>"; };
+		24C61A7D1DAD032B0039CD1F /* VolleyballStatistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyballStatistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C61A811DAD032B0039CD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C61A831DAD032B0039CD1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24C61A841DAD032B0039CD1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24C61A8A1DAD032B0039CD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C61A8D1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VolleyballStatistics.xcdatamodel; sourceTree = "<group>"; };
+		24C61A921DAD032B0039CD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24C61A941DAD032B0039CD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D292551DAF779C00418176 /* VSMemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSMemberTableViewCell.xib; sourceTree = "<group>"; };
+		24D6B0E31DB5A43700625B7A /* VSGameRecordTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameRecordTabBarViewController.h; sourceTree = "<group>"; };
+		24D6B0E41DB5A43700625B7A /* VSGameRecordTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameRecordTabBarViewController.m; sourceTree = "<group>"; };
+		24D6C3111DB9DB4800C799E8 /* VSGameBrowseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameBrowseTableViewController.h; sourceTree = "<group>"; };
+		24D6C3121DB9DB4800C799E8 /* VSGameBrowseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameBrowseTableViewController.m; sourceTree = "<group>"; };
+		24D6C3171DB9DC8900C799E8 /* VSGameBrowseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameBrowseTabBarViewController.h; sourceTree = "<group>"; };
+		24D6C3181DB9DC8900C799E8 /* VSGameBrowseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameBrowseTabBarViewController.m; sourceTree = "<group>"; };
+		24DE04041DB473BD00847C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24EBDC9D1DAE5C0A00316F9B /* VSGameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameTableViewCell.h; sourceTree = "<group>"; };
+		24EBDC9E1DAE5C0A00316F9B /* VSGameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameTableViewCell.m; sourceTree = "<group>"; };
+		24EBDCA21DAE5D7900316F9B /* VSGameAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameAddTableViewController.h; sourceTree = "<group>"; };
+		24EBDCA31DAE5D7900316F9B /* VSGameAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameAddTableViewController.m; sourceTree = "<group>"; };
+		24F0C7CA1DAD35C700A38F18 /* VSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTabBarViewController.h; sourceTree = "<group>"; };
+		24F0C7CB1DAD35C700A38F18 /* VSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTabBarViewController.m; sourceTree = "<group>"; };
+		24F0C7CD1DAD35FE00A38F18 /* VSGameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSGameTableViewController.h; sourceTree = "<group>"; };
+		24F0C7CE1DAD35FE00A38F18 /* VSGameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSGameTableViewController.m; sourceTree = "<group>"; };
+		24F0C7D01DAD360700A38F18 /* VSSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSettingsTableViewController.h; sourceTree = "<group>"; };
+		24F0C7D11DAD360700A38F18 /* VSSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSettingsTableViewController.m; sourceTree = "<group>"; };
+		24F0C7D51DAD385300A38F18 /* VSStatisticsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSStatisticsTableViewController.h; sourceTree = "<group>"; };
+		24F0C7D61DAD385300A38F18 /* VSStatisticsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSStatisticsTableViewController.m; sourceTree = "<group>"; };
+		24F0C7DC1DAD393D00A38F18 /* VSMemberTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMemberTableViewController.h; sourceTree = "<group>"; };
+		24F0C7DD1DAD393D00A38F18 /* VSMemberTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMemberTableViewController.m; sourceTree = "<group>"; };
+		24F0C7E01DAD3F5600A38F18 /* VSStatisticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSStatisticsTableViewCell.h; sourceTree = "<group>"; };
+		24F0C7E11DAD3F5600A38F18 /* VSStatisticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSStatisticsTableViewCell.m; sourceTree = "<group>"; };
+		24F0C7E31DAD3F5F00A38F18 /* VSMemberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMemberTableViewCell.h; sourceTree = "<group>"; };
+		24F0C7E41DAD3F5F00A38F18 /* VSMemberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMemberTableViewCell.m; sourceTree = "<group>"; };
+		24F0C7E91DADD7A600A38F18 /* VSMemberAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMemberAddTableViewController.h; sourceTree = "<group>"; };
+		24F0C7EA1DADD7A600A38F18 /* VSMemberAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMemberAddTableViewController.m; sourceTree = "<group>"; };
+		24F29F2A1DBD00B40015EB3F /* VSIconTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSIconTableViewController.h; sourceTree = "<group>"; };
+		24F29F2B1DBD00B40015EB3F /* VSIconTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSIconTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C61A7A1DAD032A0039CD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2478D8871DB1244B006C1581 /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				246101931DB111F9003204A6 /* GameRecord.h */,
+				246101941DB111F9003204A6 /* GameRecord.m */,
+				24B971D31DB3271D008515F4 /* Game+CoreDataClass.h */,
+				24B971D41DB3271D008515F4 /* Game+CoreDataClass.m */,
+				24B971D51DB3271D008515F4 /* Game+CoreDataProperties.h */,
+				24B971D61DB3271D008515F4 /* Game+CoreDataProperties.m */,
+				2478D87E1DB123B5006C1581 /* GameManager.h */,
+				2478D87F1DB123B5006C1581 /* GameManager.m */,
+			);
+			name = GameData;
+			sourceTree = "<group>";
+		};
+		247F5BEB1DAFD4B70031F955 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				24D6B0E31DB5A43700625B7A /* VSGameRecordTabBarViewController.h */,
+				24D6B0E41DB5A43700625B7A /* VSGameRecordTabBarViewController.m */,
+				242A2F171DB658C400FF5B39 /* VSGameStatisticsTableViewCell.h */,
+				242A2F181DB658C400FF5B39 /* VSGameStatisticsTableViewCell.m */,
+				242A2F191DB658C400FF5B39 /* VSGameStatisticsTableViewCell.xib */,
+				242A2F141DB658A000FF5B39 /* VSGameStatisticsTableViewController.h */,
+				242A2F151DB658A000FF5B39 /* VSGameStatisticsTableViewController.m */,
+				24EBDC9D1DAE5C0A00316F9B /* VSGameTableViewCell.h */,
+				24EBDC9E1DAE5C0A00316F9B /* VSGameTableViewCell.m */,
+				247F5BE91DAFCBBB0031F955 /* VSGameTableViewCell.xib */,
+				247F5BE61DAFB9340031F955 /* VSGameRecordTableViewController.h */,
+				247F5BE71DAFB9340031F955 /* VSGameRecordTableViewController.m */,
+			);
+			name = Record;
+			sourceTree = "<group>";
+		};
+		247F5BEF1DB070330031F955 /* MemberData */ = {
+			isa = PBXGroup;
+			children = (
+				24B6DF931DADED5A00EB548E /* MemberManager.h */,
+				24B6DF941DADED5A00EB548E /* MemberManager.m */,
+				24B6DF8C1DADE1D900EB548E /* Member+CoreDataClass.h */,
+				24B6DF8D1DADE1D900EB548E /* Member+CoreDataClass.m */,
+				24B6DF8E1DADE1D900EB548E /* Member+CoreDataProperties.h */,
+				24B6DF8F1DADE1D900EB548E /* Member+CoreDataProperties.m */,
+				24668D951DB25B9500CF2E21 /* MemberOpponent.h */,
+				24668D961DB25B9500CF2E21 /* MemberOpponent.m */,
+				247E74BA1DBA6397006F9021 /* MemberData.h */,
+				247E74BB1DBA6397006F9021 /* MemberData.m */,
+			);
+			name = MemberData;
+			sourceTree = "<group>";
+		};
+		24C61A741DAD032A0039CD1F = {
+			isa = PBXGroup;
+			children = (
+				24C61A7F1DAD032B0039CD1F /* VolleyballStatistics */,
+				24C61A7E1DAD032B0039CD1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C61A7E1DAD032B0039CD1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C61A7D1DAD032B0039CD1F /* VolleyballStatistics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C61A7F1DAD032B0039CD1F /* VolleyballStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				24C61A831DAD032B0039CD1F /* AppDelegate.h */,
+				24C61A841DAD032B0039CD1F /* AppDelegate.m */,
+				247F5BF01DB0A0B30031F955 /* Utilities.h */,
+				247F5BF11DB0A0B30031F955 /* Utilities.m */,
+				247F5BEC1DB06F9A0031F955 /* MLKMenuPopover.h */,
+				247F5BED1DB06F9A0031F955 /* MLKMenuPopover.m */,
+				24F0C7CA1DAD35C700A38F18 /* VSTabBarViewController.h */,
+				24F0C7CB1DAD35C700A38F18 /* VSTabBarViewController.m */,
+				24F0C7D31DAD37AF00A38F18 /* Game */,
+				24F0C7D81DAD385900A38F18 /* Statistics */,
+				24F0C7DF1DAD394000A38F18 /* Member */,
+				24F0C7D41DAD37B300A38F18 /* Settings */,
+				24DE04041DB473BD00847C70 /* Assets.xcassets */,
+				24C61A891DAD032B0039CD1F /* Main.storyboard */,
+				24C61A911DAD032B0039CD1F /* LaunchScreen.storyboard */,
+				24C61A941DAD032B0039CD1F /* Info.plist */,
+				24C61A8C1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodeld */,
+				24C61A801DAD032B0039CD1F /* Supporting Files */,
+			);
+			path = VolleyballStatistics;
+			sourceTree = "<group>";
+		};
+		24C61A801DAD032B0039CD1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C61A811DAD032B0039CD1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24D6C31A1DB9DE9700C799E8 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				24D6C3171DB9DC8900C799E8 /* VSGameBrowseTabBarViewController.h */,
+				24D6C3181DB9DC8900C799E8 /* VSGameBrowseTabBarViewController.m */,
+				24D6C3111DB9DB4800C799E8 /* VSGameBrowseTableViewController.h */,
+				24D6C3121DB9DB4800C799E8 /* VSGameBrowseTableViewController.m */,
+			);
+			name = Browse;
+			sourceTree = "<group>";
+		};
+		24F0C7D31DAD37AF00A38F18 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2478D8871DB1244B006C1581 /* GameData */,
+				247F5BEB1DAFD4B70031F955 /* Record */,
+				24D6C31A1DB9DE9700C799E8 /* Browse */,
+				24F0C7CD1DAD35FE00A38F18 /* VSGameTableViewController.h */,
+				24F0C7CE1DAD35FE00A38F18 /* VSGameTableViewController.m */,
+				24EBDCA21DAE5D7900316F9B /* VSGameAddTableViewController.h */,
+				24EBDCA31DAE5D7900316F9B /* VSGameAddTableViewController.m */,
+				2478D8881DB1264F006C1581 /* VSGameInfoTableViewCell.h */,
+				2478D8891DB1264F006C1581 /* VSGameInfoTableViewCell.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		24F0C7D41DAD37B300A38F18 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				24F0C7D01DAD360700A38F18 /* VSSettingsTableViewController.h */,
+				24F0C7D11DAD360700A38F18 /* VSSettingsTableViewController.m */,
+				24F29F2A1DBD00B40015EB3F /* VSIconTableViewController.h */,
+				24F29F2B1DBD00B40015EB3F /* VSIconTableViewController.m */,
+				2434AA081DBE2306004D50E5 /* VSIconTableViewCell.h */,
+				2434AA091DBE2306004D50E5 /* VSIconTableViewCell.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		24F0C7D81DAD385900A38F18 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				24F0C7E01DAD3F5600A38F18 /* VSStatisticsTableViewCell.h */,
+				24F0C7E11DAD3F5600A38F18 /* VSStatisticsTableViewCell.m */,
+				24951A5C1DAF12F10054B89B /* VSStatisticsTableViewCell.xib */,
+				24F0C7D51DAD385300A38F18 /* VSStatisticsTableViewController.h */,
+				24F0C7D61DAD385300A38F18 /* VSStatisticsTableViewController.m */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		24F0C7DF1DAD394000A38F18 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				247F5BEF1DB070330031F955 /* MemberData */,
+				24F0C7DC1DAD393D00A38F18 /* VSMemberTableViewController.h */,
+				24F0C7DD1DAD393D00A38F18 /* VSMemberTableViewController.m */,
+				24F0C7E31DAD3F5F00A38F18 /* VSMemberTableViewCell.h */,
+				24F0C7E41DAD3F5F00A38F18 /* VSMemberTableViewCell.m */,
+				24D292551DAF779C00418176 /* VSMemberTableViewCell.xib */,
+				24F0C7E91DADD7A600A38F18 /* VSMemberAddTableViewController.h */,
+				24F0C7EA1DADD7A600A38F18 /* VSMemberAddTableViewController.m */,
+			);
+			name = Member;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C61A7C1DAD032A0039CD1F /* VolleyballStatistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C61A971DAD032B0039CD1F /* Build configuration list for PBXNativeTarget "VolleyballStatistics" */;
+			buildPhases = (
+				24C61A791DAD032A0039CD1F /* Sources */,
+				24C61A7A1DAD032A0039CD1F /* Frameworks */,
+				24C61A7B1DAD032A0039CD1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolleyballStatistics;
+			productName = VolleyballStatistics;
+			productReference = 24C61A7D1DAD032B0039CD1F /* VolleyballStatistics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C61A751DAD032A0039CD1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "宋 奎熹";
+				TargetAttributes = {
+					24C61A7C1DAD032A0039CD1F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VEBQ28K9EA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24C61A781DAD032A0039CD1F /* Build configuration list for PBXProject "VolleyballStatistics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C61A741DAD032A0039CD1F;
+			productRefGroup = 24C61A7E1DAD032B0039CD1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C61A7C1DAD032A0039CD1F /* VolleyballStatistics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C61A7B1DAD032A0039CD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242A2F1B1DB658C400FF5B39 /* VSGameStatisticsTableViewCell.xib in Resources */,
+				24C61A931DAD032B0039CD1F /* LaunchScreen.storyboard in Resources */,
+				24D292561DAF779C00418176 /* VSMemberTableViewCell.xib in Resources */,
+				247F5BEA1DAFCBBB0031F955 /* VSGameTableViewCell.xib in Resources */,
+				24951A5D1DAF12F10054B89B /* VSStatisticsTableViewCell.xib in Resources */,
+				24DE04051DB473BD00847C70 /* Assets.xcassets in Resources */,
+				24C61A8B1DAD032B0039CD1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C61A791DAD032A0039CD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24668D971DB25B9500CF2E21 /* MemberOpponent.m in Sources */,
+				24F0C7EB1DADD7A600A38F18 /* VSMemberAddTableViewController.m in Sources */,
+				24F0C7DE1DAD393D00A38F18 /* VSMemberTableViewController.m in Sources */,
+				24F0C7D71DAD385300A38F18 /* VSStatisticsTableViewController.m in Sources */,
+				24B6DF951DADED5A00EB548E /* MemberManager.m in Sources */,
+				24D6C3191DB9DC8900C799E8 /* VSGameBrowseTabBarViewController.m in Sources */,
+				247F5BF21DB0A0B30031F955 /* Utilities.m in Sources */,
+				24C61A851DAD032B0039CD1F /* AppDelegate.m in Sources */,
+				24F0C7CC1DAD35C700A38F18 /* VSTabBarViewController.m in Sources */,
+				247F5BE81DAFB9340031F955 /* VSGameRecordTableViewController.m in Sources */,
+				242A2F161DB658A000FF5B39 /* VSGameStatisticsTableViewController.m in Sources */,
+				24C61A8E1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodeld in Sources */,
+				24D6C3131DB9DB4800C799E8 /* VSGameBrowseTableViewController.m in Sources */,
+				24B6DF911DADE1D900EB548E /* Member+CoreDataProperties.m in Sources */,
+				247F5BEE1DB06F9A0031F955 /* MLKMenuPopover.m in Sources */,
+				24F29F2C1DBD00B40015EB3F /* VSIconTableViewController.m in Sources */,
+				24B6DF901DADE1D900EB548E /* Member+CoreDataClass.m in Sources */,
+				24B971D71DB3271D008515F4 /* Game+CoreDataClass.m in Sources */,
+				24F0C7CF1DAD35FE00A38F18 /* VSGameTableViewController.m in Sources */,
+				247E74BC1DBA6397006F9021 /* MemberData.m in Sources */,
+				24F0C7E51DAD3F5F00A38F18 /* VSMemberTableViewCell.m in Sources */,
+				2478D88A1DB1264F006C1581 /* VSGameInfoTableViewCell.m in Sources */,
+				24D6B0E51DB5A43700625B7A /* VSGameRecordTabBarViewController.m in Sources */,
+				24EBDCA01DAE5C0A00316F9B /* VSGameTableViewCell.m in Sources */,
+				24EBDCA41DAE5D7900316F9B /* VSGameAddTableViewController.m in Sources */,
+				246101951DB111F9003204A6 /* GameRecord.m in Sources */,
+				24F0C7E21DAD3F5600A38F18 /* VSStatisticsTableViewCell.m in Sources */,
+				24C61A821DAD032B0039CD1F /* main.m in Sources */,
+				2434AA0A1DBE2306004D50E5 /* VSIconTableViewCell.m in Sources */,
+				24B971D81DB3271D008515F4 /* Game+CoreDataProperties.m in Sources */,
+				2478D8801DB123B5006C1581 /* GameManager.m in Sources */,
+				24F0C7D21DAD360700A38F18 /* VSSettingsTableViewController.m in Sources */,
+				242A2F1A1DB658C400FF5B39 /* VSGameStatisticsTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C61A891DAD032B0039CD1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C61A8A1DAD032B0039CD1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24C61A911DAD032B0039CD1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C61A921DAD032B0039CD1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C61A951DAD032B0039CD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24C61A961DAD032B0039CD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C61A981DAD032B0039CD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEBQ28K9EA;
+				INFOPLIST_FILE = VolleyballStatistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krayc.VolleyballStatistics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C61A991DAD032B0039CD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEBQ28K9EA;
+				INFOPLIST_FILE = VolleyballStatistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krayc.VolleyballStatistics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C61A781DAD032A0039CD1F /* Build configuration list for PBXProject "VolleyballStatistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C61A951DAD032B0039CD1F /* Debug */,
+				24C61A961DAD032B0039CD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C61A971DAD032B0039CD1F /* Build configuration list for PBXNativeTarget "VolleyballStatistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C61A981DAD032B0039CD1F /* Debug */,
+				24C61A991DAD032B0039CD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24C61A8C1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24C61A8D1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodel */,
+			);
+			currentVersion = 24C61A8D1DAD032B0039CD1F /* VolleyballStatistics.xcdatamodel */;
+			path = VolleyballStatistics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24C61A751DAD032A0039CD1F /* Project object */;
+}
